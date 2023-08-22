@@ -1,0 +1,101 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #555;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+/*-------------------------------------------*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  font-size: 16px;
+}
+
+button {
+  padding: 0.3rem 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  width: 100px;
+  margin: 0 0 3px 10px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.graph-container {
+  margin-top: 2rem;
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  font-style: italic;
+}
